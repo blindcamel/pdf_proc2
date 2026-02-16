@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     # App Info
     APP_NAME: str = "PDFProc2"
     DEBUG: bool = False
-    LOG_LEVEL: str = "Info"
+    LOG_LEVEL: str = "INFO"
 
     # Paths
     # We use .parent.parent.parent to get back to the project root from app/core/
