@@ -1,0 +1,28 @@
+# Web Framework
+
+fastapi>=0.129.0
+uvicorn>=0.34.0
+python-multipart>=0.0.20
+
+# AI & LLM (The V2 Core)
+
+openai>=2.21.0
+anthropic>=0.79.0
+instructor>=1.14.0      # For structured AI outputs
+python-dotenv>=1.2.0
+
+# Database & Persistence
+
+sqlmodel>=0.0.33        # Combines SQLAlchemy and Pydantic
+
+# PDF & Image Processing
+
+pymupdf>=1.25.0         # PDF text and rendering
+pillow>=11.0.0          # Image handling for Vision
+opencv-python-headless  # For image processing without GUI needs
+
+# Utilities & Dev Tools
+
+pydantic-settings>=2.13.0
+python-magic>=0.4.27
+watchdog>=6.0.0         # Crucial for code-reloading on WSL2
